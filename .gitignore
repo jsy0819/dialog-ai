@@ -342,3 +342,7 @@ pip-delete-this-directory.txt
 # 환경 설정 파일 (이미 위에 있지만 혹시 몰라 명시)
 .env
 .env.*
+
+# gRPC auto-generated files
+*_pb2.py
+*_pb2_grpc.py
