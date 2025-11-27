@@ -69,6 +69,6 @@ jobs:
             # 최신 이미지 받기
             docker pull munwalk/dialog-ai:latest
             # AI 서버 재시작
-            docker-compose up -d ai-server
+            docker-compose up -d --no-deps ai-server
             # 상태 확인
             docker ps | grep dialog-ai
