@@ -64,4 +64,4 @@ jobs:
           script: |
             cd /opt/dialog
             docker pull munwalk/dialog-ai:latest
-            docker-compose up -d ai-server
+            docker-compose up -d --no-deps ai-server
