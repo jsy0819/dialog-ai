@@ -187,6 +187,8 @@ logback.log
 *.sqlite3
 h2/
 data/
+!chatbot/chatbotFAQ/data/
+!chatbot/chatbotFAQ/data/terms_database.json
 db/
 
 # 캐시 및 임시 파일들
